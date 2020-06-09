@@ -40,3 +40,4 @@ class RestaurantInput extends Component {
 };
 
 export default RestaurantInput;
+
