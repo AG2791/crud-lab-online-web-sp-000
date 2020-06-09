@@ -1,26 +1,26 @@
 import React, { Component } from 'react';
-import Restaurant from './Restaurant';
+import ReviewsContainer from '../../containers/ReviewsContainer'
 
-class Restaurants extends Component {
+class Restaurant extends Component {
+
+  handleOnClick() {
+    this.props.deleteRestaurant(this.props.restaurant.id);
+  }
 
   render() {
-    const { restaurants, deleteRestaurant } = this.props;
-    const restaurantList = restaurants.map(restaurant => {
-      return (
-        <Restaurant
-            key={restaurant.id}
-            restaurant={restaurant}
-            deleteRestaurant={deleteRestaurant}
-        />
-      )
-    });
+    const { restaurant } = this.props;
 
-    return(
-      <ul>
-        {restaurantList}
-      </ul>
+    return (
+      <div>
+        <li>
+          {restaurant.text}
+          <button onClick={() => this.handleOnClick()}> X </button>
+          <ReviewsContainer restaurant={restaurant}/>
+        </li>
+      </div>
     );
   }
 };
 
-export default Restaurants;
+export default Restaurant;
+
