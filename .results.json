@@ -1,0 +1,471 @@
+{
+  "stats": {
+    "suites": 7,
+    "tests": 25,
+    "passes": 8,
+    "pending": 0,
+    "failures": 17,
+    "start": "2020-06-09T03:48:56.375Z",
+    "end": "2020-06-09T03:48:56.642Z",
+    "duration": 267
+  },
+  "tests": [
+    {
+      "title": "has an text input field",
+      "fullTitle": "RestaurantInput has an text input field",
+      "duration": 14,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has an initial state with text key set to empty string",
+      "fullTitle": "RestaurantInput has an initial state with text key set to empty string",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "changes the state with an onChange event",
+      "fullTitle": "RestaurantInput changes the state with an onChange event",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "updates the state of the store after submitting the form",
+      "fullTitle": "RestaurantInput updates the state of the store after submitting the form",
+      "duration": 132,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/restaurants-test.js:37:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "displays a list of restaurant components",
+      "fullTitle": "Restaurants Component displays a list of restaurant components",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/restaurants-test.js:58:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "displays the appropriate text",
+      "fullTitle": "Restaurant Component displays the appropriate text",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders an li",
+      "fullTitle": "Restaurant Component renders an li",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has an unique id property for each element",
+      "fullTitle": "RestaurantInput Component with Redux has an unique id property for each element",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/restaurants-test.js:80:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "has the restaurant as a prop",
+      "fullTitle": "Restaurant Component with Redux has the restaurant as a prop",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/restaurants-test.js:103:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "has a button that dispatches a DELETE_RESTAURANT action with the proper id when clicked",
+      "fullTitle": "Restaurant Component with Redux has a button that dispatches a DELETE_RESTAURANT action with the proper id when clicked",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/restaurants-test.js:123:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "updates the state of the store to remove the component",
+      "fullTitle": "Restaurant Component with Redux updates the state of the store to remove the component",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/restaurants-test.js:136:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "displays the ReviewInput component as a child of each Restaurant Component",
+      "fullTitle": "ReviewInput Component displays the ReviewInput component as a child of each Restaurant Component",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/reviews-test.js:24:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "has two text input fields, one for review input, and another for submitting",
+      "fullTitle": "ReviewInput Component has two text input fields, one for review input, and another for submitting",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has an initial state with text key set to empty string",
+      "fullTitle": "ReviewInput Component has an initial state with text key set to empty string",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "changes the state with an onChange event",
+      "fullTitle": "ReviewInput Component changes the state with an onChange event",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "adds a review to the store when the form is submitted",
+      "fullTitle": "ReviewInput Component adds a review to the store when the form is submitted",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/reviews-test.js:52:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "updates the state of the store after submitting the form",
+      "fullTitle": "ReviewInput Component updates the state of the store after submitting the form",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/reviews-test.js:69:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "sets a property of restaurantId on the review input component from the parent components id",
+      "fullTitle": "ReviewInput Component sets a property of restaurantId on the review input component from the parent components id",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/reviews-test.js:84:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "associates the review with the restaurant with a foreign key on the review",
+      "fullTitle": "ReviewInput Component associates the review with the restaurant with a foreign key on the review",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/reviews-test.js:95:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "is a child of the ReviewsContainer component",
+      "fullTitle": "Reviews Component is a child of the ReviewsContainer component",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/reviews-test.js:113:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "displays a review for when it is associated with the restaurant",
+      "fullTitle": "Reviews Component displays a review for when it is associated with the restaurant",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'restaurants' of undefined\n    at Context.<anonymous> (test/reviews-test.js:121:24)",
+        "message": "Cannot read property 'restaurants' of undefined"
+      }
+    },
+    {
+      "title": "does not display any review unassociated with the restaurant",
+      "fullTitle": "Reviews Component does not display any review unassociated with the restaurant",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'restaurants' of undefined\n    at Context.<anonymous> (test/reviews-test.js:133:24)",
+        "message": "Cannot read property 'restaurants' of undefined"
+      }
+    },
+    {
+      "title": "has an unique id property that for each element",
+      "fullTitle": "Reviews Component has an unique id property that for each element",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/reviews-test.js:146:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "has a button that dispatches a DELETE_REVIEW action when clicked",
+      "fullTitle": "Reviews Component has a button that dispatches a DELETE_REVIEW action when clicked",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'restaurants' of undefined\n    at Context.<anonymous> (test/reviews-test.js:164:24)",
+        "message": "Cannot read property 'restaurants' of undefined"
+      }
+    },
+    {
+      "title": "updates the state of the store to remove the component",
+      "fullTitle": "Reviews Component updates the state of the store to remove the component",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'restaurants' of undefined\n    at Context.<anonymous> (test/reviews-test.js:180:24)",
+        "message": "Cannot read property 'restaurants' of undefined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "updates the state of the store after submitting the form",
+      "fullTitle": "RestaurantInput updates the state of the store after submitting the form",
+      "duration": 132,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/restaurants-test.js:37:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "displays a list of restaurant components",
+      "fullTitle": "Restaurants Component displays a list of restaurant components",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/restaurants-test.js:58:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "has an unique id property for each element",
+      "fullTitle": "RestaurantInput Component with Redux has an unique id property for each element",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/restaurants-test.js:80:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "has the restaurant as a prop",
+      "fullTitle": "Restaurant Component with Redux has the restaurant as a prop",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/restaurants-test.js:103:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "has a button that dispatches a DELETE_RESTAURANT action with the proper id when clicked",
+      "fullTitle": "Restaurant Component with Redux has a button that dispatches a DELETE_RESTAURANT action with the proper id when clicked",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/restaurants-test.js:123:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "updates the state of the store to remove the component",
+      "fullTitle": "Restaurant Component with Redux updates the state of the store to remove the component",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/restaurants-test.js:136:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "displays the ReviewInput component as a child of each Restaurant Component",
+      "fullTitle": "ReviewInput Component displays the ReviewInput component as a child of each Restaurant Component",
+      "duration": 6,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/reviews-test.js:24:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "adds a review to the store when the form is submitted",
+      "fullTitle": "ReviewInput Component adds a review to the store when the form is submitted",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/reviews-test.js:52:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "updates the state of the store after submitting the form",
+      "fullTitle": "ReviewInput Component updates the state of the store after submitting the form",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/reviews-test.js:69:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "sets a property of restaurantId on the review input component from the parent components id",
+      "fullTitle": "ReviewInput Component sets a property of restaurantId on the review input component from the parent components id",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/reviews-test.js:84:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "associates the review with the restaurant with a foreign key on the review",
+      "fullTitle": "ReviewInput Component associates the review with the restaurant with a foreign key on the review",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/reviews-test.js:95:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "is a child of the ReviewsContainer component",
+      "fullTitle": "Reviews Component is a child of the ReviewsContainer component",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/reviews-test.js:113:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "displays a review for when it is associated with the restaurant",
+      "fullTitle": "Reviews Component displays a review for when it is associated with the restaurant",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'restaurants' of undefined\n    at Context.<anonymous> (test/reviews-test.js:121:24)",
+        "message": "Cannot read property 'restaurants' of undefined"
+      }
+    },
+    {
+      "title": "does not display any review unassociated with the restaurant",
+      "fullTitle": "Reviews Component does not display any review unassociated with the restaurant",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'restaurants' of undefined\n    at Context.<anonymous> (test/reviews-test.js:133:24)",
+        "message": "Cannot read property 'restaurants' of undefined"
+      }
+    },
+    {
+      "title": "has an unique id property that for each element",
+      "fullTitle": "Reviews Component has an unique id property that for each element",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue.\n    at Object.invokeGuardedCallbackDev (node_modules/react-dom/cjs/react-dom.development.js:246:19)\n    at invokeGuardedCallback (node_modules/react-dom/cjs/react-dom.development.js:292:31)\n    at beginWork$1 (node_modules/react-dom/cjs/react-dom.development.js:23203:7)\n    at performUnitOfWork (node_modules/react-dom/cjs/react-dom.development.js:22157:12)\n    at workLoopSync (node_modules/react-dom/cjs/react-dom.development.js:22130:22)\n    at performSyncWorkOnRoot (node_modules/react-dom/cjs/react-dom.development.js:21756:9)\n    at scheduleUpdateOnFiber (node_modules/react-dom/cjs/react-dom.development.js:21188:7)\n    at updateContainer (node_modules/react-dom/cjs/react-dom.development.js:24373:3)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/react-dom/cjs/react-dom.development.js:24758:7\n    at unbatchedUpdates (node_modules/react-dom/cjs/react-dom.development.js:21903:12)\n    at legacyRenderSubtreeIntoContainer (node_modules/react-dom/cjs/react-dom.development.js:24757:5)\n    at Object.render (node_modules/react-dom/cjs/react-dom.development.js:24840:10)\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:437:26\n    at /home/super-prototype-6270/crud-lab-online-web-sp-000/node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:37\n    at batchedUpdates$1 (node_modules/react-dom/cjs/react-dom.development.js:21856:12)\n    at Object.act (node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)\n    at wrapAct (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:354:13)\n    at Object.render (node_modules/enzyme-adapter-react-16/src/ReactSixteenAdapter.js:423:16)\n    at new ReactWrapper (node_modules/enzyme/src/ReactWrapper.js:115:16)\n    at mount (node_modules/enzyme/src/mount.js:10:10)\n    at Context.<anonymous> (test/reviews-test.js:146:21)",
+        "message": "An error was thrown inside one of your components, but React doesn't know what it was. This is likely due to browser flakiness. React does its best to preserve the \"Pause on exceptions\" behavior of the DevTools, which requires some DEV-mode only tricks. It's possible that these don't work in your browser. Try triggering the error in production mode, or switching to a modern browser. If you suspect that this is actually an issue with React, please file an issue."
+      }
+    },
+    {
+      "title": "has a button that dispatches a DELETE_REVIEW action when clicked",
+      "fullTitle": "Reviews Component has a button that dispatches a DELETE_REVIEW action when clicked",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'restaurants' of undefined\n    at Context.<anonymous> (test/reviews-test.js:164:24)",
+        "message": "Cannot read property 'restaurants' of undefined"
+      }
+    },
+    {
+      "title": "updates the state of the store to remove the component",
+      "fullTitle": "Reviews Component updates the state of the store to remove the component",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "TypeError: Cannot read property 'restaurants' of undefined\n    at Context.<anonymous> (test/reviews-test.js:180:24)",
+        "message": "Cannot read property 'restaurants' of undefined"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "has an text input field",
+      "fullTitle": "RestaurantInput has an text input field",
+      "duration": 14,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has an initial state with text key set to empty string",
+      "fullTitle": "RestaurantInput has an initial state with text key set to empty string",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "changes the state with an onChange event",
+      "fullTitle": "RestaurantInput changes the state with an onChange event",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "displays the appropriate text",
+      "fullTitle": "Restaurant Component displays the appropriate text",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "renders an li",
+      "fullTitle": "Restaurant Component renders an li",
+      "duration": 2,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has two text input fields, one for review input, and another for submitting",
+      "fullTitle": "ReviewInput Component has two text input fields, one for review input, and another for submitting",
+      "duration": 5,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "has an initial state with text key set to empty string",
+      "fullTitle": "ReviewInput Component has an initial state with text key set to empty string",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "changes the state with an onChange event",
+      "fullTitle": "ReviewInput Component changes the state with an onChange event",
+      "duration": 3,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
